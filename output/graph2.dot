@@ -1,0 +1,10 @@
+digraph G {
+0[label="SubWorkstream A"];
+1[label="SubWorkstream B"];
+2[label="SubWorkstream C"];
+3[label="SubWorkstream D"];
+0->1 ;
+1->2 ;
+1->3 ;
+2->3 ;
+}
